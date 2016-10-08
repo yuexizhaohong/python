@@ -10,9 +10,9 @@ def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
-from_addr = 'zh.chu@haitongwangxiao.com'
-password = 'chu0306'
-to_addr = '717141697@qq.com'
+from_addr = '*****@haitongwangxiao.com'
+password = '********'
+to_addr = '*****@qq.com'
 smtp_server = 'smtp.ym.163.com'
 
 msg = MIMEText('hello, send by python...', 'plain', 'utf-8')

@@ -29,9 +29,9 @@ def send_mail(to_list, sub, filename):
 
 mail_host = 'smtp.ym.163.com'
 mail_user = 'zh.chu@haitongwangxiao.com'
-mail_pass = 'chu0306'
-mail_name = '储昭洪'
-mailto_list = ['717141697@qq.com','chu0306@126.com']
+mail_pass = '********'
+mail_name = '*****'
+mailto_list = ['******@qq.com','*****@126.com']
 title = 'check'
 filename = "chu.html"
 if send_mail(mailto_list,title,filename):
